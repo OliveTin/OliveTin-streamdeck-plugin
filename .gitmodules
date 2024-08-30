@@ -1,0 +1,3 @@
+[submodule "src/app.olivetin.sdPlugin/libs"]
+	path = src/app.olivetin.sdPlugin/libs
+	url = https://github.com/elgatosf/streamdeck-javascript-sdk

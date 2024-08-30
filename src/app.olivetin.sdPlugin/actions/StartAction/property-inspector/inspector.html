@@ -17,38 +17,27 @@
         <div type="tabs" class="sdpi-item">
             <div class="sdpi-item-label empty"></div>
             <div class="tabs">
-                <div class="tab selected" data-target="#tab1" title="Show some inputs">Inputs</div>
-                <div class="tab" data-target="#tab2" title="Here's some text-areas">Text</div>
-            </div>
+                <div class="tab selected" data-target="#tabConnection" title="Connection details">Connection</div>
+                <div class="tab" data-target="#tabAction" title="Show some inputs">Inputs</div>
+            </div> 
         </div>
         <hr class="tab-separator">
         <form id="property-inspector">
-            <div id="tab1" class="tab-container">
+            <div id="tabConnection" class="tab-container">
                 <div class="sdpi-item">
-                    <div data-localize class="sdpi-item-label" title="My name">Name</div>
-                    <input data-localize class="sdpi-item-value" name="name" type="text" value="" placeholder="Click Me" />
+                    <div data-localize class="sdpi-item-label" title="More">OliveTin API URL</div>
+                    <input data-localize class="sdpi-item-value" name="url" type="text" value="" placeholder="http://olivetin.example.com:1337/api/" />
                 </div>
-
-                <div type="textarea" class="sdpi-item">
-                    <div class="sdpi-item-label" data-localize title="My message">Message</div>
-                    <div class="sdpi-item-value textarea">
-                        <textarea
-                                  name="message"
-                                  type="textarea"
-                                  maxlength="50"
-                                  class="three-lines"></textarea>
-                    </div>
-                </div>
-            </div>
-            <div id="tab2" class="tab-container">
+            </div>            
+            <div id="tabAction" class="tab-container"> 
                 <div class="sdpi-item">
-                    <div data-localize class="sdpi-item-label" title="More">More</div>
-                    <input data-localize class="sdpi-item-value" name="more" type="text" value="" placeholder="More info" />
+                    <div data-localize class="sdpi-item-label" title="My name">Action ID</div>
+                    <input data-localize class="sdpi-item-value" name="action_id" type="text" value="" placeholder="hello_world" />
                 </div>
-            </div>
+            </div> 
         </form>
         <div class="sdpi-item">
-            <div class="sdpi-item-label" data-localize title="My button">Button</div>
+            <div class="sdpi-item-label" data-localize title="My button">Test Connection</div>
             <button
                     class="sdpi-item-value"
                     value="Click Me"
@@ -57,7 +46,7 @@
                 Click Me
             </button>
         </div>
-    </div>
+    </div> 
 
     <div class="sdpi-info-label hidden" style="top: -1000" value=""></div>
 
