@@ -1,10 +1,10 @@
 {
-  "Description": "Use this to create your own plugin", 
+  "Description": "Connect to instances of https://olivetin.app", 
   "Name": "OliveTin Stream-Deck Plugin", 
   "Category": "OliveTin", 
   "app.olivetin.StartAction": {
     "Name": "Action", 
-    "Tooltip": "This is the only action in this plugin"
+    "Tooltip": "Start an OliveTin action by ID"
   },
   "Localization": {
     "More info": "More info",
