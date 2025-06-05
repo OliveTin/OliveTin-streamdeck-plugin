@@ -1,14 +1,15 @@
 {
 	"SDKVersion": 2,
+	"UUID": "app.olivetin",
 	"Author": "James Read",
 	"CodePath": "app.html",
 	"Description": "OliveTin Streamdeck plugin",
 	"Name": "OliveTin Plugin",
-	"Icon": "actions/template/assets/action",
-	"URL": "https://docs.olivetin.app/stream-deck.html",
-	"Version": "1.0.0",
+	"Icon": "OliveTinLogo",
+	"URL": "https://docs.olivetin.app/integrations/stream-deck.html",
+	"Version": "1.0.0.0",
 	"Software": {
-		"MinimumVersion": "5.0"
+		"MinimumVersion": "6.8"
 	},
 	"OS": [
 		{
@@ -18,18 +19,20 @@
 		{
 			"Platform": "windows",
 			"MinimumVersion": "10"
-		} 
+		}
 	],
-	"Category": "OliveTin",
+	"Category": "OliveTin Plugin",
 	"CategoryIcon": "actions/StartAction/assets/appImage",
 	"Actions": [
 		{
-			"UUID": "app.olivetin.actions.start",  
+			"UUID": "app.olivetin.actions.start",
 			"Name": "Start OliveTin Action",
 			"Tooltip": "Starts an OliveTin action",
 			"PropertyInspectorPath": "actions/StartAction/property-inspector/inspector.html",
-			"Controllers": ["Keypad"],
-			"Icon": "actions/StartAction/assets/appImage", 
+			"Controllers": [
+				"Keypad"
+			],
+			"Icon": "actions/StartAction/assets/appImage",
 			"States": [
 				{
 					"Image": "actions/StartAction/assets/buttonImage"
@@ -41,10 +44,13 @@
 			"Name": "Kill OliveTin Action",
 			"Tooltip": "Kills an OliveTin action",
 			"PropertyInspectorPath": "actions/StartAction/property-inspector/inspector.html",
-			"Controllers": ["Keypad", "Encoder"],
+			"Controllers": [
+				"Keypad",
+				"Encoder"
+			],
 			"Icon": "actions/StartAction/assets/appImage",
 			"States": [
-				{ 
+				{
 					"Image": "actions/StartAction/assets/buttonImage"
 				}
 			]
