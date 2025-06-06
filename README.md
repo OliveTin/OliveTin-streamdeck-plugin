@@ -1,4 +1,4 @@
 
 # OliveTin-streamdeck-plugin
 
-This is in very early development!
+* Documentation: https://docs.olivetin.app/integrations/stream-deck.html 
